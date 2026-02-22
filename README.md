@@ -10,6 +10,9 @@ Müasir, sürətli və premium dizayna malik URL qısaltma tətbiqi. Bu layihə 
 ![Link Statistikası](./screenshots/stats_view.png)
 *Şəkil 2: Real-vaxt statistika izləmə bölməsi.*
 
+![Test Nümunəsi](./screenshots/test1.png)
+*Şəkil 3: Qısaldılmış linkin test edilməsi və uğurlu nəticə.*
+
 ## 🌍 Canlı Demo (Deployment)
 
 Layihə hal-hazırda aşağıdakı platformalarda canlı olaraq işləyir:
