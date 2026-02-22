@@ -2,6 +2,14 @@
 
 Müasir, sürətli və premium dizayna malik URL qısaltma tətbiqi. Bu layihə həm **Frontend** (React), həm də **Backend** (Node.js/Express) hissələrindən ibarətdir.
 
+## 📸 Ekran Görüntüləri
+
+![Əsas Səhifə](./screenshots/main_page.png)
+*Şəkil 1: Layihənin ana səhifəsi və mərkəzləşdirilmiş premium dizaynı.*
+
+![Link Statistikası](./screenshots/stats_view.png)
+*Şəkil 2: Real-vaxt statistika izləmə bölməsi.*
+
 ## ✨ Özəlliklər
 
 - **Sürətli Qısaltma:** Uzun URL-ləri saniyələr içində qısaldın.
