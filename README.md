@@ -10,6 +10,13 @@ Müasir, sürətli və premium dizayna malik URL qısaltma tətbiqi. Bu layihə 
 ![Link Statistikası](./screenshots/stats_view.png)
 *Şəkil 2: Real-vaxt statistika izləmə bölməsi.*
 
+## 🌍 Canlı Demo (Deployment)
+
+Layihə hal-hazırda aşağıdakı platformalarda canlı olaraq işləyir:
+
+- **Frontend:** [Vercel](https://vercel.com) üzərində yerləşdirilib.
+- **Backend:** [Render](https://render.com) üzərində yerləşdirilib.
+
 ## ✨ Özəlliklər
 
 - **Sürətli Qısaltma:** Uzun URL-ləri saniyələr içində qısaldın.
