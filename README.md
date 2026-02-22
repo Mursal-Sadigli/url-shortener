@@ -1,0 +1,56 @@
+# 🔗 URL Qısaldıcı (URL Shortener)
+
+Müasir, sürətli və premium dizayna malik URL qısaltma tətbiqi. Bu layihə həm **Frontend** (React), həm də **Backend** (Node.js/Express) hissələrindən ibarətdir.
+
+## ✨ Özəlliklər
+
+- **Sürətli Qısaltma:** Uzun URL-ləri saniyələr içində qısaldın.
+- **Canlı Statistika:** Hər bir link üçün toplam klik sayını və son 24 saatdakı aktivliyi izləyin.
+- **Qalıcı Yaddaş:** `localStorage` vasitəsilə səhifəni yenilədikdə belə məlumatlarınız itmir.
+- **Premium Dizayn:** Tailwind CSS 4 ilə hazırlanmış müasir, mərkəzləşdirilmiş və mobil uyğun (responsive) interfeys.
+- **Təhlükəsizlik:** Rate limiting ilə serverin həddindən artıq yüklənməsinin qarşısı alınır.
+
+## 🛠 Texnologiyalar
+
+### Frontend:
+- **React (Vite):** Sürətli və modulyar UI.
+- **Tailwind CSS 4:** Müasir stillər və animasiyalar.
+- **Axios:** API sorğuları üçün.
+
+### Backend:
+- **Node.js & Express:** Sürətli server infrastrukturu.
+- **Nanoid:** Unikal və yığcam kod yaradılması.
+- **Validator:** URL-lərin doğruluğunun yoxlanılması.
+- **ES Modules:** Tam modern JavaScript standartı.
+
+## 🚀 Quraşdırma və İşə Salma
+
+Layihəni lokal maşınınızda işə salmaq üçün aşağıdakı addımları izləyin:
+
+### 1. Backend-i işə salın
+```bash
+cd backend
+npm install
+npm run dev
+```
+*Server susmaya görə `http://localhost:5000` ünvanında işə düşəcək.*
+
+### 2. Frontend-i işə salın
+```bash
+cd frontend
+npm install
+npm run dev
+```
+*İnterfeys `http://localhost:5173` (və ya Vite tərəfindən verilən digər port) ünvanında açılacaq.*
+
+## 📂 Layihə Strukturu
+
+- `/backend`: Server kodları, marşrutlar və servislər.
+- `/frontend`: React komponentləri, stillər və konfiqurasiya.
+- `/frontend/src/config.js`: API ünvanının mərkəzi tənzimləmə faylı.
+
+## 📝 Qeydlər
+- Layihənin düzgün işləməsi üçün həm frontend, həm də backend eyni vaxtda işlək vəziyyətdə olmalıdır.
+- Qısa linklər bazada deyil, müvəqqəti olaraq serverin yaddaşında (in-memory) saxlanılır (Server söndükdə sıfırlanır).
+
+---
