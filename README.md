@@ -43,6 +43,27 @@ npm run dev
 ```
 *İnterfeys `http://localhost:5173` (və ya Vite tərəfindən verilən digər port) ünvanında açılacaq.*
 
+## 🧪 Test Nümunələri (API)
+
+Layihənin işləməsini aşağıdakı `curl` əmrləri ilə terminaldan test edə bilərsiniz:
+
+### 1. URL Qısaltmaq (POST)
+```bash
+curl -X POST http://localhost:5000/api/shorten \
+     -H "Content-Type: application/json" \
+     -d '{"url": "https://google.com"}'
+```
+*Gözlənilən cavab: `{"shortUrl": "http://localhost:5000/abcde"}`*
+
+### 2. Statistika Almaq (GET)
+```bash
+curl http://localhost:5000/api/stats/{kod}
+```
+*Gözlənilən cavab: `{"originalUrl": "https://google.com", "totalClicks": 1, ...}`*
+
+### 3. Rate Limit Testi
+Eyni linki 5 dəfədən çox qısaltmağa çalışsanız server sizə **429 Too Many Requests** xətası qaytaracaq.
+
 ## 📂 Layihə Strukturu
 
 - `/backend`: Server kodları, marşrutlar və servislər.
